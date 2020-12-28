@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+
+.post{
+    height: 95vh;
+    width: 70vh;
+    margin: auto;
+    background-color: white;
+}
+
+.header{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.header-icons{
+    display: flex;
+    justify-content: left;
+    margin: 1px;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.title, h4, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+.fa-ellipsis-v, .fa-heart, .fa-comment, .fa-telegram-plane, .fa-bookmark{
+    font-size: 18px;
+    margin: 0.5rem;
+}
+
+.fa-html5{
+    font-size: 35px;
+    margin: 0.5rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin:0.5rem;
+    padding: 0px;
+}
+
+.left-icons{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pharagraphs{
+    padding: 0.5rem;
+}
